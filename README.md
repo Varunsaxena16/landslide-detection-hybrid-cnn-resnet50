@@ -1,0 +1,1 @@
+# landslide-detection-hybrid-cnn-resnet50
