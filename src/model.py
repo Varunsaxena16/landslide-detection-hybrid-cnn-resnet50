@@ -4,11 +4,7 @@ from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.losses import BinaryFocalCrossentropy
 import tensorflow.keras.backend as K
 
-
-# -----------------------------
 # Loss Functions
-# -----------------------------
-
 def dice_loss(y_true, y_pred):
     smooth = 1e-5
     y_true_f = K.flatten(y_true)
@@ -24,11 +20,7 @@ def combined_focal_dice_loss(y_true, y_pred):
     dice = dice_loss(y_true, y_pred)
     return focal + dice
 
-
-# -----------------------------
 # Hybrid ResNet50 Model
-# -----------------------------
-
 def build_resnet50_hybrid(
     input_shape=(128, 128, 12),
     dropout_rate=0.4,
