@@ -1,3 +1,4 @@
+## Research accepted for publication at the 12th International Symposium on Field Monitoring in Geomechanics, Springer Nature (2026)
 # Hybrid CNN–ResNet50 for Landslide Detection using Multi-Sensor Satellite Data
 
 ## Overview
